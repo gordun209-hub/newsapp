@@ -1,6 +1,9 @@
 import { drop } from 'ramda'
 import { ReactChild, ReactFragment, ReactPortal } from 'react'
 
+// API_KEY=y2bWu8wUUqvZlPy5rL5B2TZyzmpASmxJ
+// SECRET_KEY=VGOfaxeOoo4qVqTW
+// APP_ID=9bf2b201-a248-4273-a751-7569e4f5a2aa
 //generate random id
 import useNewsQuery from '../../hooks/useAllNews'
 
