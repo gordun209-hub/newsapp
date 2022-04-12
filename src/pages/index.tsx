@@ -69,31 +69,26 @@ const HeroPage = () => (
                   Discover
                 </Link>
 
-                <a
-                  href='#'
+                <Link
+                  to='/topics'
                   className='font-medium text-gray-500 hover:text-gray-900'
                 >
                   Search by topic
-                </a>
+                </Link>
 
-                <a
-                  href='#'
+                <Link
+                  to='/yourCountry'
                   className='font-medium text-gray-500 hover:text-gray-900'
                 >
                   In your country
-                </a>
+                </Link>
 
-                <a
-                  href='#'
+                <Link
+                  to='/world'
                   className='font-medium text-gray-500 hover:text-gray-900'
                 >
                   Worldwide
-                </a>
-
-                <a
-                  href='#'
-                  className='font-medium text-indigo-600 hover:text-indigo-500'
-                ></a>
+                </Link>
               </div>
             </nav>
           </div>

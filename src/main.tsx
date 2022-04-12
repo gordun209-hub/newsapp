@@ -7,6 +7,7 @@ import { ReactQueryDevtools } from 'react-query/devtools'
 import { BrowserRouter } from 'react-router-dom'
 
 import App from './App'
+import Navbar from './components/Navbar'
 
 const queryClient = new QueryClient()
 render(

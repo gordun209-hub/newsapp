@@ -1,5 +1,5 @@
 const DiscoverPage = () => {
-  return <div>poqwak</div>
+  return <div>discover page</div>
 }
 
 export default DiscoverPage

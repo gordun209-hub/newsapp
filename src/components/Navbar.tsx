@@ -23,35 +23,20 @@ const Navbar = () => {
     'sundayreview',
     'technology',
     'theater',
-    't-magazine',
     'travel',
     'upshot',
     'us',
     'world'
   ]
   return (
-    <nav
-      className=' 
-      navbar navbar-expand-lg navbar-light bg-light
-    '
-    >
+    <nav>
       {sections.map(section => (
-        <Link
+        <li
           key={section}
-          className='
-          nav-link
-          text-dark
-          mr-3
-            
-          
-           
-
-        '
-          to={`/topics/${section}`}
+          className='inline-block min-w-fit h-15 text-sm px-4 py-2 leading-none   rounded  border-white hover:border-transparent hover:text-teal-500 hover:bg-white mt-4 lg:mt-0 lg:ml-6 border-2 bg-slate-400 space-x-6 '
         >
-          {' '}
-          {section}{' '}
-        </Link>
+          <Link to={`${section}`}> {section} </Link>
+        </li>
       ))}
     </nav>
   )

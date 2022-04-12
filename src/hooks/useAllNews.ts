@@ -8,6 +8,6 @@ const getStoriesBySection = async (section: string) => {
   return data
 }
 
-export default function usePost(section: string) {
+export default function useNewsQuery(section: string) {
   return useQuery(['post', section], () => getStoriesBySection(section))
 }
